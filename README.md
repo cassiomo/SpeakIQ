@@ -21,19 +21,7 @@ SpeakIQ is a web application built with Next.js that acts as your personal publi
 
 To run SpeakIQ locally, you'll need Node.js and a package manager (like npm or yarn).
 
-### 1. Set Up Your Gemini API Key
-
-The AI features of this application require a Google Gemini API key.
-
-1.  Obtain a key from [Google AI Studio](https://aistudio.google.com/app/apikey).
-2.  When you first run the application, you will be prompted to enter your API key. The app will automatically create and populate a `.env` file in the root of the project with your key.
-
-    Alternatively, you can manually create a `.env` file in the project root and add the following line:
-    ```
-    GEMINI_API_KEY=YOUR_API_KEY_HERE
-    ```
-
-### 2. Install Dependencies
+### 1. Install Dependencies
 
 In your terminal, navigate to the project directory and run:
 
@@ -41,7 +29,7 @@ In your terminal, navigate to the project directory and run:
 npm install
 ```
 
-### 3. Run the Development Server
+### 2. Run the Development Server
 
 Once the dependencies are installed, start the Next.js development server:
 
@@ -50,12 +38,3 @@ npm run dev
 ```
 
 The application will now be running at [http://localhost:9002](http://localhost:9002).
-
-## 🛠️ Tech Stack
-
--   **Framework**: [Next.js](https://nextjs.org/) (with App Router)
--   **Language**: [TypeScript](https://www.typescriptlang.org/)
--   **Styling**: [Tailwind CSS](https://tailwindcss.com/)
--   **UI Components**: [ShadCN/UI](https://ui.shadcn.com/)
--   **Generative AI**: [Firebase Genkit](https://firebase.google.com/docs/genkit) with the [Google Gemini](https://deepmind.google/technologies/gemini/) model
--   **Charts**: [Recharts](https://recharts.org/)
