@@ -1,0 +1,28 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-image",
+      "description": "A person giving a presentation to an audience.",
+      "imageUrl": "https://images.unsplash.com/photo-1710360683896-e0506fb3579a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwdWJsaWMlMjBzcGVha2luZ3xlbnwwfHx8fDE3NjQ1MjE1ODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "public speaking"
+    },
+    {
+      "id": "feature-1",
+      "description": "An abstract visualization of an audio wave.",
+      "imageUrl": "https://images.unsplash.com/photo-1762014270382-42026cd395f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YXVkaW8lMjB3YXZlfGVufDB8fHx8MTc2NDQ3MzUxNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "audio wave"
+    },
+    {
+      "id": "feature-2",
+      "description": "A dashboard with data charts and graphs.",
+      "imageUrl": "https://images.unsplash.com/photo-1762427354251-f008b64dbc32?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxkYXRhJTIwY2hhcnR8ZW58MHx8fHwxNzY0NDk2NTgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "data chart"
+    },
+    {
+      "id": "feature-3",
+      "description": "A document with a list of feedback points.",
+      "imageUrl": "https://images.unsplash.com/photo-1623697899811-f2403f50685e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxmZWVkYmFjayUyMGxpc3R8ZW58MHx8fHwxNzY0NTYwMTE0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "feedback list"
+    }
+  ]
+}
