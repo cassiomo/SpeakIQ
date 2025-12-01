@@ -17,45 +17,21 @@ SpeakIQ is a web application built with Next.js that acts as your personal publi
 - **Personalized Recommendations**: Receive concrete, AI-generated tips tailored to your specific performance to help you improve.
 - **Analysis History**: Track your progress over time with a history of all your past analyses and see your SpeakIQ score evolve.
 
-## 🖼 Interactive Slideshow
+## 🖼 Slideshow Overview
 
-Explore SpeakIQ visually with this interactive carousel:
+Here’s a quick visual walkthrough of SpeakIQ:
 
-<div style="max-width:600px; margin:auto; text-align:center;">
-  <div style="position:relative;">
-    <img id="slide" src="slide1.jpg" style="width:100%; border-radius:10px;" />
-    <button onclick="prevSlide()" style="position:absolute; top:50%; left:0; transform:translateY(-50%); background:#fff; border:none; padding:5px 10px; cursor:pointer;">&#10094;</button>
-    <button onclick="nextSlide()" style="position:absolute; top:50%; right:0; transform:translateY(-50%); background:#fff; border:none; padding:5px 10px; cursor:pointer;">&#10095;</button>
-  </div>
-  <p id="caption" style="margin-top:10px;">Step 1: Upload your transcript or record your speech.</p>
-</div>
+![Slide 1](slide1.jpg)  
+*Step 1: Upload your transcript or record your speech.*
 
-<script>
-  const slides = [
-    { src: "slide1.jpg", caption: "Step 1: Upload your transcript or record your speech." },
-    { src: "slide2.jpg", caption: "Step 2: AI analyzes your speech, identifying key metrics and areas to improve." },
-    { src: "slide3.jpg", caption: "Step 3: Detailed dashboard shows your SpeakIQ score, filler words, pacing, and sentiment." },
-    { src: "slide4.jpg", caption: "Step 4: Compare your performance with expert archetypes and receive personalized tips." }
-  ];
+![Slide 2](slide2.jpg)  
+*Step 2: AI analyzes your speech, identifying key metrics and areas to improve.*
 
-  let current = 0;
+![Slide 3](slide3.jpg)  
+*Step 3: Detailed dashboard shows your SpeakIQ score, filler words, pacing, and sentiment.*
 
-  function showSlide(index) {
-    const slide = slides[index];
-    document.getElementById("slide").src = slide.src;
-    document.getElementById("caption").innerText = slide.caption;
-  }
-
-  function nextSlide() {
-    current = (current + 1) % slides.length;
-    showSlide(current);
-  }
-
-  function prevSlide() {
-    current = (current - 1 + slides.length) % slides.length;
-    showSlide(current);
-  }
-</script>
+![Slide 4](slide4.jpg)  
+*Step 4: Compare your performance with expert archetypes and receive personalized tips.*
 
 ## 🚀 Getting Started
 
